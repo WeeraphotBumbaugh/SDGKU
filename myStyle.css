@@ -1,0 +1,109 @@
+/* GENERAL */
+body {
+  background-color: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.grid-two-columns {
+  display: flex;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+/* END GENERAL*/
+/* HEADER */
+.site-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 30%;
+}
+.site-header img {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid #dedede;
+  padding: 1px;
+}
+.site-header h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 36px;
+  color: burlywood;
+  text-shadow: 2px 2px 2px red;
+}
+.site-header h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.geo-location {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.menu a {
+  display: block;
+}
+.menu a i {
+  margin-right: 10px;
+}
+/* END HEADER */
+/* MAIN */
+p {
+  line-height: 2;
+}
+.greeting {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+.my-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+.my-name span {
+  color: burlywood;
+}
+.languages li:before {
+  font-family: fontawesome;
+  padding-right: 10px;
+  content: "\f121";
+}
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+/* END MAIN */
+/* UTILITIES */
+.btn {
+  background-color: #222222;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  width: 50%;
+}
+.btn sm {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 10px auto;
+  padding: 10px;
+}
+/* END UTILITIES */
