@@ -4,32 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/337be747ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="myStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
     <title>My Site</title>
   </head>
   <body>
-    <header>
-      <h1>Will Bumbaugh</h1>
-      <h2>Full Stack Software Developer</h2>
-      <p>San Diego, CA</p>
-    </header>
-    <main>
-      <h3>Bio</h3>
-      <p>
-        <b>Dr. Victor Krumm</b> was once a
-        <i>brilliant scientist and philanthropist,</i> but after a series of
-        events beyond his control, he became one of the world's
-        <mark>most feared supervillains.</mark> Born in a small Eastern European
-        town, Victor showed a talent for <ins>science</ins> from a young age and
-        quickly rose through the ranks of the academic community. However, his
-        life changed forever when his wife and children were killed in a
-        <sub>freak accident </sub>caused by one of his experiments gone wrong.
-        <sup>Fueled by anger and a desire for revenge</sup>, Victor turned his
-        talents towards developing advanced technologies with the goal of
-        dominating the world. He has since become the mastermind behind numerous
-        world-threatening events, using his vast wealth and scientific knowledge
-        to create powerful weapons and hire a team of deadly henchmen.
-      </p>
-    </main>
+    <div class="grid-two-columns">
+      <header class="site-header">
+        <img src="Selfie2.jpg" alt="my picture" />
+        <h1>Weeraphot Bumbaugh</h1>
+        <h2>Full Stack Software Developer</h2>
+        <p class="geo-location">
+          <i class="fa-sharp fa-solid fa-location-dot"></i>San Diego, CA
+        </p>
+        <nav class="menu">
+          <a href="index.html" class="btn"
+            ><i class="fa-sharp fa-solid fa-house-chimney-window"></i>Home</a
+          >
+          <a href="about.html" class="btn"
+            ><i class="fa-solid fa-user"></i>About</a
+          >
+          <a href="projects.html" class="btn"
+            ><i class="fa-solid fa-code"></i>Project</a
+          >
+          <a href="contact.html" class="btn"
+            ><i class="fa-solid fa-address-card"></i>Contact</a
+          >
+        </nav>
+      </header>
+      <main>
+        <p class="greeting">Hi There!</p>
+        <p class="my-name">I'm <span>Weeraphot Bumbaugh</span></p>
+        <p>
+          <b>Dr. Victor Krumm</b> was once a
+          <i>brilliant scientist and philanthropist,</i> but after a series of
+          events beyond his control, he became one of the world's
+          <mark>most feared supervillains.</mark> Born in a small Eastern
+          European town, Victor showed a talent for <ins>science</ins> from a
+          young age and quickly rose through the ranks of the academic
+          community. However, his life changed forever when his wife and
+          children were killed in a <sub>freak accident </sub>caused by one of
+          his experiments gone wrong.
+          <sup>Fueled by anger and a desire for revenge</sup>, Victor turned his
+          talents towards developing advanced technologies with the goal of
+          dominating the world. He has since become the mastermind behind
+          numerous world-threatening events, using his vast wealth and
+          scientific knowledge to create powerful weapons and hire a team of
+          deadly henchmen.
+        </p>
+        <a href="#" class="btn btn-sm">About Me</a>
+      </main>
+    </div>
     <footer></footer>
   </body>
 </html>
