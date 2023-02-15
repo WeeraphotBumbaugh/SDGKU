@@ -95,6 +95,11 @@ main {
   padding-right: 10px;
   content: "\f121";
 }
+.hobbies li:before {
+  font-family: fontawesome;
+  padding-right: 10px;
+  content: "\f0e7";
+}
 main h2 {
   display: block;
   font-size: 30px;
